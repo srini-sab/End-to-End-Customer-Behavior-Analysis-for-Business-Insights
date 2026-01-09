@@ -133,14 +133,13 @@ A professional presentation was created using **Gamma AI** to communicate insigh
 ```
 ├── data/
 │ └── customer_shopping_data.csv
-├── notebooks/
+├── notebook_data_cleaning/
 │ └── data_cleaning_analysis.ipynb
-├── sql/
+├── data_analysis/
 │ └── analysis_queries.sql
-├── dashboard/
 │ └── Customer_Behavior_Dashboard.pbix
-├── presentation/
-│ └── Customer_Behavior_Analysis_GammaAI.pptx
+├── presentation_buisness_analytics/
+│ └── Customer_Behavior_Analysis.pptx
 └── README.md
 ```
 
