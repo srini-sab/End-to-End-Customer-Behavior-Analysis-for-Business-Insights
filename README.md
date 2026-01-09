@@ -1,74 +1,62 @@
-📊 Customer Behavior Dashboard
+📊 Customer Shopping Behavior Analysis & Insights Dashboard
+🧾 Project Overview
 
-An end-to-end data analytics project that analyzes customer shopping behavior and purchasing patterns using Python, SQL, Power BI, and a presentation created with Gamma AI.
-The project converts raw transactional data into clear insights and communicates findings through both an interactive dashboard and a professional presentation.
+This is an end-to-end Data Analyst portfolio project that analyzes customer shopping behavior using transactional retail data.
+The project focuses on identifying customer trends, revenue patterns, and subscription insights, and presents results through:
 
-📌 Project Overview
+SQL analysis (MySQL)
 
-This project analyzes customer shopping behavior using data from 3,900 customer purchases across multiple product categories.
-The objective is to understand:
+Interactive Power BI dashboard
 
-Customer demographics
+Business presentation created using Gamma AI
 
-Subscription behavior
+🎯 Project Objectives
 
-Product performance
+Analyze customer purchasing behavior
 
-Revenue and sales trends
+Identify high-revenue customer segments
 
-The insights are presented through:
+Compare subscribers vs non-subscribers
 
-An interactive Power BI dashboard
+Evaluate product and category performance
 
-A business-ready PPT created using Gamma AI
+Support business decision-making with data
 
-📂 Dataset Summary
+📂 Dataset Details
+Attribute	Description
+Total Records	3,900
+Total Columns	18
+Domain	Retail / E-commerce
+Missing Values	Review Rating column
+🧹 Data Cleaning & Preparation (Python)
 
-Total Records: 3,900
+The dataset was cleaned and prepared using Python (pandas).
 
-Total Columns: 18
+Steps performed:
 
-Key Features
+Loaded dataset and inspected structure
 
-Customer demographics: Age, Gender, Location, Subscription Status
+Checked summary statistics
 
-Purchase details: Item Purchased, Category, Purchase Amount
+Handled missing values using median imputation
 
-Shopping behavior: Discount Applied, Review Rating, Shipping Type
-
-Historical behavior: Previous Purchases, Purchase Frequency
-
-Data Quality
-
-Missing values in Review Rating
-
-Handled using median imputation by product category
-
-🧪 Exploratory Data Analysis (Python)
-
-Data preparation and EDA were performed using Python:
-
-Data loading and inspection using pandas
-
-Summary statistics and structure checks
-
-Missing value handling
-
-Column name standardization (snake_case)
+Standardized column names (snake_case)
 
 Feature engineering:
 
-age_group
+Created age_group
 
-purchase frequency metrics
+Derived purchase frequency features
 
-Removal of redundant columns
+Removed redundant columns
 
-Exported cleaned data to PostgreSQL for SQL analysis
+Exported cleaned data for SQL analysis
 
-🗄️ Data Analysis (SQL)
+🗄️ Data Analysis Using MySQL
 
-Business-driven queries were written in PostgreSQL to answer key questions:
+The cleaned dataset was loaded into MySQL, and business-focused SQL queries were written to extract insights.
+
+Key analyses performed:
 
 Revenue by gender
 
@@ -78,27 +66,33 @@ High-spending customers using discounts
 
 Top-rated products
 
-Sales and revenue by category
+Revenue and sales by category
 
-Shipping type impact on revenue
+Shipping type impact on purchase amount
 
-Customer segmentation (New, Returning, Loyal)
+Customer segmentation:
+
+New
+
+Returning
+
+Loyal
 
 Revenue contribution by age group
 
 📊 Power BI Dashboard
 
-The interactive dashboard includes:
+An interactive dashboard was created to visualize insights.
 
-KPIs
+Key KPIs
 
-Number of Customers
+Total Customers
 
 Average Review Rating
 
 Average Purchase Amount
 
-Visual Insights
+Visualizations
 
 Revenue by category
 
@@ -122,45 +116,43 @@ Shipping Type
 
 📽️ Business Presentation (Gamma AI)
 
-To effectively communicate insights to non-technical stakeholders, a professional presentation was created using Gamma AI.
+A professional presentation was created using Gamma AI to communicate insights to non-technical stakeholders.
 
-Presentation Highlights
+Presentation includes:
 
-Project objective and dataset overview
+Project overview
 
-Key customer behavior insights
+Key findings
 
-Revenue and sales trends
+Customer behavior trends
 
-Subscription and age-group analysis
+Revenue insights
 
-Actionable business recommendations
+Business recommendations
 
-This PPT complements the Power BI dashboard by summarizing findings in a storytelling format suitable for business meetings and reviews.
+💡 Key Insights
 
-💡 Business Insights & Recommendations
+Subscribers have a higher average purchase value
 
-Promote subscription plans with exclusive benefits
+Certain categories contribute significantly to total revenue
 
-Introduce loyalty programs for repeat customers
+Younger age groups generate higher sales volume
 
-Optimize discount strategies to balance sales and profit
+Express shipping users spend more per order
 
-Focus marketing efforts on high-revenue age groups
+Loyal customers show strong repeat purchase behavior
 
-Highlight top-rated and best-selling products
-
-🛠️ Tools & Technologies
+🛠️ Tools & Technologies Used
 
 Python – Data cleaning & EDA
 
 Pandas, NumPy – Data manipulation
 
-PostgreSQL – SQL-based business analysis
+MySQL – SQL analysis
 
-Power BI – Interactive dashboard
+Power BI – Data visualization
 
-Gamma AI – Business presentation (PPT)
+Gamma AI – Business presentation
 
 Excel – Initial data inspection
 
@@ -170,28 +162,25 @@ Excel – Initial data inspection
 ├── notebooks/
 │   └── data_cleaning_analysis.ipynb
 ├── sql/
-│   └── business_queries.sql
+│   └── analysis_queries.sql
 ├── dashboard/
 │   └── Customer_Behavior_Dashboard.pbix
 ├── presentation/
 │   └── Customer_Behavior_Analysis_GammaAI.pptx
-├── README.md
+└── README.md
 
-🚀 How to Use
+🚀 How to Run the Project
 
-Run the Python notebook for data cleaning and EDA
+Perform data cleaning using the Python notebook
 
-Load cleaned data into PostgreSQL
+Load cleaned data into MySQL
 
-Execute SQL queries for business insights
+Execute SQL queries for analysis
 
-Explore the Power BI dashboard
+Open Power BI dashboard to explore insights
 
-Use the Gamma AI PPT for presentations and reporting
-
-📷 Dashboard Preview
-<img width="1080" height="618" alt="image" src="https://github.com/user-attachments/assets/41f2f913-febd-4f0c-a1e7-ff16f4412a76" />
+Use Gamma AI PPT for business presentation
 
 📄 License
 
-This project is created for educational, learning, and portfolio purposes.
+This project is created for learning, academic, and portfolio purposes.
